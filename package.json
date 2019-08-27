@@ -1,0 +1,15 @@
+{
+    "name": "node_path-pre-commit-test",
+    "version": "0.0.0",
+    "description": "test",
+    "repository": {
+        "type": "https",
+        "url": "https://github.com/henryykt/node_path-pre-commit-test"
+    },
+    "author": "henrrykt@gmail.com",
+    "license": "SEE LICENSE IN LICENSE",
+    "prettier": {
+        "printWidth": 80,
+        "tabWidth": 4
+    }
+}

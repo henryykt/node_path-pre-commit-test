@@ -1,0 +1,11 @@
+repos:
+    - repo: https://github.com/pre-commit/mirrors-eslint
+      rev: v6.2.2
+      hooks:
+          - id: eslint
+            args: ["--fix", "--ignore-pattern", "!.eslintrc.js"]
+            additional_dependencies:
+                - eslint@6.2.2
+                - eslint-config-prettier@6.1.0
+                - eslint-plugin-prettier@3.1.0
+                - prettier@1.18.2
